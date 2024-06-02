@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.nav{
+    height: 6vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#logo{
+    margin-left: -100px;
+    font-family: 'Lobster', cursive;
+    color: rgb(116, 214, 240);
+    font-size: 40px;
+}
+#logo:hover{
+    cursor: pointer;
+    color: rgb(41, 47, 51);
+}
+button{
+    background-color: rgb(116, 214, 240);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 47, 51);
+    color: rgb(116, 214, 240);
+}
+#signin{
+    text-decoration: none;
+    margin-right: -149px;
+    cursor: pointer;
+}
+#signin:hover{
+    text-decoration: underline;
+    color: rgb(116, 214, 240);
+}
+.break{
+    font-size: 40px;
+    margin-right: -150px;
+    color: rgba(0, 0, 0, 0.571);
+}
+.nav-items{
+    color: rgb(41, 47, 51);
+    font-size: 20px;
+    text-decoration: underline;
+}
+h2:hover{
+    cursor: pointer;
+    color: rgb(116, 214, 240);
+    text-decoration: none;
+}
+.line{
+    height: 0.1vh;
+    background-color: rgba(128, 128, 128, 0.305);
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+}
+.hometext{
+    width: 45vw;
+    height: 74vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+#descriptive-text1{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#descriptive-text2{
+    font-size: 23px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#palettebtn1{
+    margin-top: 30px;
+    width: 270px;
+    height: 55px;
+}
+#palettebtn2{
+    margin-top: 15px;
+    width: 270px;
+    height: 55px;
+    color: rgb(41, 47, 51);
+    background-color: white;
+    border: 2px solid rgb(41, 47, 51)
+}
+#palettebtn2:hover{
+    cursor: pointer;
+    background-color: rgb(41, 47, 51);
+    color: white;
+}
+#palettebtn3{
+    margin-top: 40px;
+    width: 270px;
+    height: 55px;
+    background-color: white;
+    border: 2px solid rgba(241, 91, 50, 0.948);
+    color: rgba(241, 91, 50, 0.948);
+}
+.animationspace{
+    width: 65vw;
+    height: 74vh;
+    display: flex;
+    align-items: top;
+}
+
+.one{
+    width: 10vw;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    border: 7px solid white;
+    border-left: 12px solid white;
+}
+
+.two{
+    width: 10vw;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    border: 7px solid white;
+    
+}
+.three{
+    width: 10vw;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    border: 7px solid white;
+}
+.four{
+    width: 10vw;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    border: 7px solid white;
+}
+.five{
+    width: 10vw;
+    height: 60vh;
+    background-color: yellow;
+    display: flex;
+    border: 7px solid white;
+    border-right: 12px solid white;
+}
+.laptop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55vw;
+    height: 63vh;
+    border: 20px solid black;
+    border-radius: 10px 10px 0 0;
+}
+.laptopbar{
+    width: 70vw;
+    height: 4vh;
+    background-color: rgb(201, 200,204);
+    position: absolute;
+    top: 73.5vh;
+    left: 28vw;
+    border-radius: 0 0 20px 20px;
+}
+.fullbody{
+    display: block;
+}
+.badge-bar{
+    display: flex;
+}
+.emptyspaceleft{
+    width: 8vw;
+    height: 15vw;
+}
+.emptyspaceright{
+    width: 8vw;
+    height: 15vw;
+}
+.badges{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84vw;  
+}
+.badge{
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(238, 238, 245);
+    color: black;
+    border-radius: 8%;
+}
+.logo{
+    width: 8vw;
+    height: 8vw;
+    
+}
+.data{
+    display: none;
+}
+#logo1:hover{
+    background-color: rgba(84, 84, 255, 0.406);
+    #img1{
+        display: none;
+    }
+    .data{
+        display: block;
+        font-size: 35px;
+        color: rgb(84, 84, 255);
+        text-align: center;
+        animation: slideup 1.2s ease;   
+    }
+    
+    
+}
+#logo2:hover{
+    background-color: rgba(35, 193, 141, 0.406);
+    #img2{
+        display: none;
+    }
+    .data{
+        display: block;
+        font-size: 35px;
+        color: rgb(5, 124, 84);
+        text-align: center;
+        animation: slideup 1.2s ease;    
+    }
+}
+#logo3:hover{
+    background-color: rgba(251, 255, 16, 0.406);
+    #img3{
+        display: none;
+    }
+    .data{
+        display: block;
+        font-size: 35px;
+        color: rgb(93, 94, 32);
+        text-align: center;
+        animation: slideup 1.2s ease;    
+    }
+}
+#logo4:hover{
+    background-color: rgba(71, 248, 74, 0.406);
+    #img4{
+        display: none;
+    }
+    .data{
+        display: block;
+        font-size: 35px;
+        color: rgb(36, 140, 38);
+        text-align: center;
+        animation: slideup 1.2s ease;    
+    }
+}
+#logo5:hover{
+    background-color: rgba(41, 47, 51, 0.406);
+    #img5{
+        display: none;
+    }
+    .data{
+        display: block;
+        font-size: 35px;
+        color: rgb(41, 47, 51);
+        text-align: center;
+        animation: slideup 1.2s ease;    
+    }
+}
+@keyframes slideup{
+    0%{
+        transform: translateY(4.5vw);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+.info{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.4vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.foot{
+    height: 30vw;
+    width: 100vw;
+    background-color: rgb(238, 238, 245);
+}
+#bottomline{
+    margin-bottom: 0;
+    height: 0.2vh;
+    background-color: rgba(128, 128, 128);
+}
+
+.footer{
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    font-family: sans-serif;
+}
+.foot{
+    height: 30vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.foot-items{
+    text-align: left;
+    color: black;
+}
+.toolsdata{
+    font-size: 1.2vw;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.toolsdata:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.tools{
+    font-size: 2vw;
+    margin-bottom: 25px;
+}
+.tools:hover{
+    cursor: pointer;
+    color: rgb(116, 214, 240);
+}
+
+#linebreak{
+    height: 4px;
+}
+.spaceright{
+    width: 10vw;
+    height: 30vw;
+    background-color: rgb(238, 238, 245);
+
+}
